@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-02-22",
+  "git_dirty": true,
+  "git_head": "681032b76d66cd35c37d970061712f4f781f8cc5",
+  "sources": [
+    {
+      "bytes": 432,
+      "last_commit": "fd3a522a83a56d145754ffd64e82a52fbc4175ed",
+      "path": "README.md",
+      "sha256": "9d5ef9b8810f467a6ee3b9baff77dae1cf2b50110c852bc6e4257b184c759576"
+    },
+    {
+      "bytes": 13,
+      "last_commit": "fd3a522a83a56d145754ffd64e82a52fbc4175ed",
+      "path": "CHANGELOG.md",
+      "sha256": "e4c2b73ff6d59083c8dcbfa4f5aa1654f6a5d30d4b65d3169a996a2ee1b6bd60"
+    },
+    {
+      "bytes": 676,
+      "last_commit": "fd3a522a83a56d145754ffd64e82a52fbc4175ed",
+      "path": "CONTRIBUTING.md",
+      "sha256": "9ee3eb84388e318b1342cf509c00c118209ae8e15d1a9237c92072c5a67cd2c1"
+    },
+    {
+      "bytes": 19,
+      "last_commit": "79574e6ef5a5627685338f17261ad01f9e1e538d",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "fd3ed88fcc6ed08be6256c125443d2d7987afe0627fff5bf7da45b0da4fc5a7f"
+    },
+    {
+      "bytes": 1668,
+      "last_commit": "331378f70e827453f7e1a3812443fc06e6f38fa6",
+      "path": "SECURITY.md",
+      "sha256": "216b7eff7d7661a7c9aaf7e4c0f853259dfe6b4157b7887fbd85958b82672110"
+    },
+    {
+      "bytes": 11,
+      "last_commit": "79574e6ef5a5627685338f17261ad01f9e1e538d",
+      "path": "SUPPORT.md",
+      "sha256": "507b0f684071ded2e25d59e1f80e932c186a0c9f6b2c965bc10d078c6694345d"
+    },
+    {
+      "bytes": 14,
+      "last_commit": "79574e6ef5a5627685338f17261ad01f9e1e538d",
+      "path": "GOVERNANCE.md",
+      "sha256": "7edc2ecd298d13a9841784417157c19cbee67f95b948f2d5db2c921844ee3d7d"
+    },
+    {
+      "bytes": 0,
+      "last_commit": "fd3a522a83a56d145754ffd64e82a52fbc4175ed",
+      "path": "ROADMAP.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 25,
+      "last_commit": "fd3a522a83a56d145754ffd64e82a52fbc4175ed",
+      "path": "docs/README.md",
+      "sha256": "44b09f387d8da2e46a26c4a63fb125f24d99a70751784c10bc593fd3b5a8c12a"
+    },
+    {
+      "bytes": 1006,
+      "last_commit": "fd3a522a83a56d145754ffd64e82a52fbc4175ed",
+      "path": "docs/project/README.md",
+      "sha256": "ecfebdf005bde8c5b22aa12af8f2251ee63af0be30afdb3da9180bd2bc4b07ed"
+    },
+    {
+      "bytes": 4295,
+      "last_commit": "25878b0fcb67fa933905782fd006f457c5e5833c",
+      "path": "docs/project/ai-guidelines.md",
+      "sha256": "e914b328e3cc0e4f46fbf2e33c01051da9c5db38909cfbb2ec12462ec98ff6b3"
+    },
+    {
+      "bytes": 4613,
+      "last_commit": "9dc62cefc2e40bc857f87a79de0b9b5e10f711ce",
+      "path": "docs/project/language-guidelines.md",
+      "sha256": "fcfd5841b9a6c3347b6d17fc25331834be69569796cb60e79c5de7199fb383f8"
+    },
+    {
+      "bytes": 1758,
+      "last_commit": "20649430302b05c044ad9eeaf4b028c2fdee9fd0",
+      "path": "docs/project/source-code-guidelines.md",
+      "sha256": "1214054ea59b5d40652b6ee274c827add1f19a603808633cd01811eac1ecee1c"
+    },
+    {
+      "bytes": 16751,
+      "last_commit": "681032b76d66cd35c37d970061712f4f781f8cc5",
+      "path": "docs/project/folder-structure-and-files-guidelines.md",
+      "sha256": "15cb8026b0bf1aab39a2fea54cc88a4e9cd26f6bdf084f6f6fc20c6efae9e491"
+    },
+    {
+      "bytes": 2013,
+      "last_commit": "79574e6ef5a5627685338f17261ad01f9e1e538d",
+      "path": "docs/project/technical-guidelines.md",
+      "sha256": "5ed1e08a34baeaf780752a90ec50a7a6911563d7c83070a18328dec90199fbca"
+    },
+    {
+      "bytes": 3439,
+      "last_commit": "0121a06e3db48bb87a951530844e56a01caa6703",
+      "path": "docs/project/prompts/README.md",
+      "sha256": "48f9342e1198fcdc5ccb5dec2ba8024bdab07c2199e035a9034082ab4f239f38"
+    },
+    {
+      "bytes": 2347,
+      "last_commit": "20649430302b05c044ad9eeaf4b028c2fdee9fd0",
+      "path": "docs/project/prompts/tasks.md",
+      "sha256": "49b05670ec9e2b9e8ad261eaee273a92eeb6747270a0a56c3d6f71e6a4b7a461"
+    },
+    {
+      "bytes": 1468,
+      "last_commit": "20649430302b05c044ad9eeaf4b028c2fdee9fd0",
+      "path": "docs/project/prompts/templates.md",
+      "sha256": "6591332dd0b5e8356cb5717d570850c5008c5e9a8ac3954255cdb6422fcda6de"
+    },
+    {
+      "bytes": 4595,
+      "last_commit": "20649430302b05c044ad9eeaf4b028c2fdee9fd0",
+      "path": "docs/project/prompts/task-language-guidelines-enforce.md",
+      "sha256": "02c24a357a87d92746588ae171e7466a59a1f54b5f1e86cb7eb18106a1f54699"
+    }
+  ]
+}
