@@ -8,6 +8,30 @@ Use only what is needed for the specific project. Consider providing feedback on
 > **Inclusion:** ✔️ required ➖ optional ➕ suggested
 > **Scope:** 📦 common 🧪 research 🧱 code
 
+## Cross-repository reuse (Polaris as upstream)
+
+This repository (`ufabric-org/project-polaris`) is intended to be used as a starting point for other uFabric repositories.
+Projects SHOULD share a consistent folder and file structure to make navigation easier for both humans and AI agents.
+
+### Upstream-managed files (exact copies)
+
+The table below includes an **Exact copy of** column.
+
+If a file is copied from Polaris as an “exact copy”, downstream repositories MUST treat it as **upstream-managed**:
+
+- **Do not modify it in the downstream repository.**
+- If a change is required, make the change in Polaris first, then sync/update downstream copies.
+- After updating shared human documentation in Polaris, refresh any agent-facing derived artifacts (for example, `agentic/`) so agents do not operate on stale rules.
+
+### Project-specific files (local ownership)
+
+Downstream repositories MAY add project-specific documentation, prompts, and templates when they are genuinely specific to that project.
+If an artifact (prompt/template/guideline) is likely to be useful across multiple uFabric repositories, the preferred workflow is:
+
+1) Add or update the shared artifact in Polaris.
+2) Update Polaris agent-facing documentation (for example, `agentic/`).
+3) Then continue implementation in the downstream repository using the updated shared reference.
+
 
 `#️⃣`Review the table below and ensure the descriptions are coherent and complete. If a folder/file does not make sense, remove it.`#️⃣`
 

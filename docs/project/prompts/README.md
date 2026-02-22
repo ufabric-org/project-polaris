@@ -31,6 +31,7 @@ This prompt library is tailored for uFabric projects and uses `ufabric-org/proje
 - **Naming convention:** Task prompts MUST start with `task-` and templates MUST start with `template-`.
 - **Collaborative creation:** New prompts MUST be created in collaboration with maintainers. Start by asking what the prompt should do, the expected inputs/outputs, and any constraints.
 - **Polaris reference:** For uFabric projects, prompts SHOULD reference Polaris documents when defining guidelines, rules, or common structures (prefer raw GitHub URLs for cross-repository reuse).
+- **Upstream-first for shared prompts:** If a prompt is likely to be useful across multiple uFabric repositories, create/update it in Polaris first and then sync or reference it from downstream repositories. Downstream repositories MAY create project-specific prompts, but they SHOULD NOT edit prompts that are exact copies of Polaris prompts.
 
 ## Linking guidance (cross-repository reuse)
 

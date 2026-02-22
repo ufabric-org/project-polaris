@@ -32,6 +32,7 @@ Translations are welcome when they increase accessibility, but they must preserv
 - **Define terms on first use.** Expand acronyms once, then use the acronym consistently.
 - **Use consistent normative language.** Prefer “MUST”, “SHOULD”, and “MAY” for requirements, recommendations, and optional behavior.
 - **Use stable formats.** Prefer ISO 8601 dates (`YYYY-MM-DD`) and SI units; specify time zones when relevant.
+- **Audience-appropriate depth.** For public-facing documents intended for a general audience, the prose MAY be more expansive and narrative (a coherent “story” a non-technical reader can follow and stay engaged with), while remaining sufficiently formal and precise for expert or academic readers.
 
 ## Human documents (source of truth)
 

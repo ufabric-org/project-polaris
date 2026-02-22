@@ -6,3 +6,4 @@
 3. All documents must be written in English according to the [language guidelines](language-guidelines.md).
 4. All projects must follow the [technical guidelines](technical-guidelines.md).
 5. All projects must have a CHANGELOG following the [keepachangelog.com/en/1.1.0](https://keepachangelog.com/en/1.1.0/) conventions.
+6. Repositories bootstrapped from Polaris SHOULD keep shared structure for navigation. Files that are exact copies from Polaris MUST NOT be modified downstream; changes must be made in Polaris and then synced.
