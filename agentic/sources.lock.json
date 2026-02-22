@@ -1,13 +1,13 @@
 {
   "generated_at": "2026-02-22",
   "git_dirty": true,
-  "git_head": "315798cd1f4ca84e39ca9abd9fc68b681e6faaa8",
+  "git_head": "74a4ddc6f37147e55aaf110fc3c12bce14fa9557",
   "sources": [
     {
-      "bytes": 432,
+      "bytes": 736,
       "last_commit": "fd3a522a83a56d145754ffd64e82a52fbc4175ed",
       "path": "README.md",
-      "sha256": "9d5ef9b8810f467a6ee3b9baff77dae1cf2b50110c852bc6e4257b184c759576"
+      "sha256": "64dc2d55dd9e4de956ce5f47f02821a5f4d632cd4167eeb0a8c4a9f7e4eb8560"
     },
     {
       "bytes": 13,
@@ -52,16 +52,16 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "bytes": 25,
+      "bytes": 348,
       "last_commit": "fd3a522a83a56d145754ffd64e82a52fbc4175ed",
       "path": "docs/README.md",
-      "sha256": "44b09f387d8da2e46a26c4a63fb125f24d99a70751784c10bc593fd3b5a8c12a"
+      "sha256": "2c1d6c3efd09445a5eb8f0a8e0f4fe5e3850ca601a84dcd088d321fff4d2266d"
     },
     {
-      "bytes": 1006,
+      "bytes": 1713,
       "last_commit": "f54272e8ace1181281d60dfab57ea1ae4c5f4818",
       "path": "docs/project/README.md",
-      "sha256": "ecfebdf005bde8c5b22aa12af8f2251ee63af0be30afdb3da9180bd2bc4b07ed"
+      "sha256": "52377b2c8f957047450b48bb1d7a50f4712ab315c0ab20ad37e72f1cf7c9ded5"
     },
     {
       "bytes": 4295,
@@ -82,10 +82,10 @@
       "sha256": "1214054ea59b5d40652b6ee274c827add1f19a603808633cd01811eac1ecee1c"
     },
     {
-      "bytes": 16751,
+      "bytes": 16870,
       "last_commit": "f54272e8ace1181281d60dfab57ea1ae4c5f4818",
       "path": "docs/project/folder-structure-and-files-guidelines.md",
-      "sha256": "15cb8026b0bf1aab39a2fea54cc88a4e9cd26f6bdf084f6f6fc20c6efae9e491"
+      "sha256": "54855dff5df7de9f6a131fb1a90c299c6fd0b9f67807ebc4f0ecffc34c8a6e10"
     },
     {
       "bytes": 2013,
@@ -94,22 +94,22 @@
       "sha256": "5ed1e08a34baeaf780752a90ec50a7a6911563d7c83070a18328dec90199fbca"
     },
     {
-      "bytes": 3439,
+      "bytes": 3529,
       "last_commit": "f54272e8ace1181281d60dfab57ea1ae4c5f4818",
       "path": "docs/project/prompts/README.md",
-      "sha256": "48f9342e1198fcdc5ccb5dec2ba8024bdab07c2199e035a9034082ab4f239f38"
+      "sha256": "dd34e89b98a610a6a5dd8257cfe84c413617cd0226b7886de345703ae4e59caa"
     },
     {
-      "bytes": 2476,
+      "bytes": 2946,
       "last_commit": "20649430302b05c044ad9eeaf4b028c2fdee9fd0",
       "path": "docs/project/prompts/tasks.md",
-      "sha256": "1bee4a0fa32fd37ff98edf7ef9884b967d362265d751665ec350a8fbf1610b3a"
+      "sha256": "b37fb630ecf7c7d11387edf60d7486ceaa20810489b8ef5cb7dcd79d3f9eb094"
     },
     {
-      "bytes": 1468,
+      "bytes": 1847,
       "last_commit": "20649430302b05c044ad9eeaf4b028c2fdee9fd0",
       "path": "docs/project/prompts/templates.md",
-      "sha256": "6591332dd0b5e8356cb5717d570850c5008c5e9a8ac3954255cdb6422fcda6de"
+      "sha256": "37ba1f4a3e06e621527a24cd669e337b0a0a6922f50ed7d29e485b96c7f79e75"
     },
     {
       "bytes": 4595,

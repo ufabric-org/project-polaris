@@ -6,7 +6,6 @@ This map is a navigation aid for agents and humans. It is intentionally high-lev
 
 - `docs/`: human-maintained documentation for project-wide guidelines and templates.
 - `agentic/`: agent-facing derived artifacts (runbook, indexes, and change-detection metadata).
-- `web/`: optional website content (Markdown pages and assets).
 
 ## Key entry points
 

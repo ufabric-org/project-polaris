@@ -41,8 +41,14 @@ Each task prompt file MUST include:
 
 ## Available task prompts
 
-| Prompt                    | Primary use                                       | File                                |
-| ------------------------- | ------------------------------------------------- | ----------------------------------- |
-| Language guidelines enforcement | Enforce names and content language compliance | `task-language-guidelines-enforce.md` |
-| Agentic folder bootstrap | Create or refresh `agentic/` runbooks and rule indexes | `task-agentic-folder-bootstrap.md` |
-| Documentation coherence review | Review Markdown docs for coherence and ambiguity | `task-documentation-coherence-review.md` |
+| Prompt | Primary use | File |
+| --- | --- | --- |
+| ADR draft | Draft an Architectural Decision Record (ADR) | `task-adr-draft.md` |
+| Agentic folder bootstrap | Create or refresh `agentic/` derived runbooks/indexes | `task-agentic-folder-bootstrap.md` |
+| Code change with tests | Implement a change and update tests with validation evidence | `task-code-change-with-tests.md` |
+| Code review | Review a changeset for correctness, security, and maintainability | `task-code-review.md` |
+| Documentation coherence review | Audit Markdown docs for contradictions, ambiguity, and drift | `task-documentation-coherence-review.md` |
+| Documentation review | Review a document and propose bounded fixes | `task-documentation-review.md` |
+| Documentation update | Create/update docs with traceability to source material | `task-documentation-update.md` |
+| Language guidelines enforcement | Enforce language/terminology compliance (may rename) | `task-language-guidelines-enforce.md` |
+| Research protocol | Draft a reproducible research/experiment protocol | `task-research-protocol.md` |

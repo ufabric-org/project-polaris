@@ -15,7 +15,7 @@ This prompt library is tailored for uFabric projects and uses `ufabric-org/proje
 2. Copy the **Prompt (copy/paste)** block into your LLM tool.
 3. Replace placeholders (e.g., `<TASK>`, `<FILES>`, `<CONSTRAINTS>`).
 4. Provide relevant **human source-of-truth** documents (project docs, ADRs, policies) and repository context.
-5. Before running a prompt, ensure that relevant artifacts are backed up in GitHub. This is a recommendation, not a constraint.
+5. Before running a prompt that may modify files, ensure your current state is recoverable (for example, committed locally and pushed to GitHub if you want a remote backup). This is a recommendation, not a constraint.
 6. Review the output critically. A human is responsible for validation and final decisions.
 
 ## Prompt design rules (for adding or editing prompts)

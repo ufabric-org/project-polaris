@@ -34,4 +34,8 @@ Each template prompt file MUST include:
 
 ## Available template prompts
 
-No template prompts are listed yet.
+| Prompt | Primary use | File |
+| --- | --- | --- |
+| Coding task template | Scaffolding for coding tasks with tests/validation sections | `template-coding-task.md` |
+| Research task template | Scaffolding for research tasks with traceability and evaluation sections | `template-research-task.md` |
+| Review task template | Scaffolding for structured reviews with prioritized findings | `template-review-task.md` |
