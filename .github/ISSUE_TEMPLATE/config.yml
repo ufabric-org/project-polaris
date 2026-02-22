@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security reports
+    url: https://github.com/ufabric-org/project-polaris/security/policy
+    about: Please report security vulnerabilities privately via the Security Policy.
+  - name: Security email
+    url: mailto:security@ufabric.org
+    about: If GitHub private reporting is unavailable, email us at security@ufabric.org.
+  - name: Discussions / questions
+    url: https://github.com/ufabric-org/project-polaris/discussions
+    about: Ask and answer questions in Discussions (if enabled).

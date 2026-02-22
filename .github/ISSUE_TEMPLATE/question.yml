@@ -1,0 +1,74 @@
+name: Question
+description: Ask a question about documentation, research, guidelines, or code.
+title: "question: "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your question.
+
+        Include context so others can help quickly.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: What area is your question about?
+      options:
+        - Documentation / text
+        - Research artifact (notes, protocol, datasets, results)
+        - Code
+        - CI / automation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What do you want to know?
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Relevant files/links
+      description: Link to files, sections, runs, or PRs related to the question.
+      placeholder: |
+        Examples:
+        - docs/...
+        - research/...
+        - src/...
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you trying to do, and what have you tried?
+      placeholder: Include links, commands, or snippets (redact secrets).
+    validations:
+      required: false
+  - type: textarea
+    id: expected
+    attributes:
+      label: Desired outcome
+      description: What would be a helpful answer/result?
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues/discussions.
+          required: false
+        - label: I included enough context to answer.
+          required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional details
+    validations:
+      required: false

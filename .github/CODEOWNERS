@@ -1,0 +1,9 @@
+# CODEOWNERS
+#
+# This file defines who is automatically requested for review when changes are made.
+# Replace the placeholders with real GitHub usernames or org teams (e.g. @ufabric-org/maintainers).
+#
+# Docs: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Whole-repo default owners (update if your GitHub handle is different)
+* @jarriagada
