@@ -44,3 +44,5 @@ Each task prompt file MUST include:
 | Prompt                    | Primary use                                       | File                                |
 | ------------------------- | ------------------------------------------------- | ----------------------------------- |
 | Language guidelines enforcement | Enforce names and content language compliance | `task-language-guidelines-enforce.md` |
+| Agentic folder bootstrap | Create or refresh `agentic/` runbooks and rule indexes | `task-agentic-folder-bootstrap.md` |
+| Documentation coherence review | Review Markdown docs for coherence and ambiguity | `task-documentation-coherence-review.md` |

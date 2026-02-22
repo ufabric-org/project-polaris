@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-02-22",
   "git_dirty": true,
-  "git_head": "681032b76d66cd35c37d970061712f4f781f8cc5",
+  "git_head": "315798cd1f4ca84e39ca9abd9fc68b681e6faaa8",
   "sources": [
     {
       "bytes": 432,
@@ -59,7 +59,7 @@
     },
     {
       "bytes": 1006,
-      "last_commit": "fd3a522a83a56d145754ffd64e82a52fbc4175ed",
+      "last_commit": "f54272e8ace1181281d60dfab57ea1ae4c5f4818",
       "path": "docs/project/README.md",
       "sha256": "ecfebdf005bde8c5b22aa12af8f2251ee63af0be30afdb3da9180bd2bc4b07ed"
     },
@@ -71,7 +71,7 @@
     },
     {
       "bytes": 4613,
-      "last_commit": "9dc62cefc2e40bc857f87a79de0b9b5e10f711ce",
+      "last_commit": "f54272e8ace1181281d60dfab57ea1ae4c5f4818",
       "path": "docs/project/language-guidelines.md",
       "sha256": "fcfd5841b9a6c3347b6d17fc25331834be69569796cb60e79c5de7199fb383f8"
     },
@@ -83,7 +83,7 @@
     },
     {
       "bytes": 16751,
-      "last_commit": "681032b76d66cd35c37d970061712f4f781f8cc5",
+      "last_commit": "f54272e8ace1181281d60dfab57ea1ae4c5f4818",
       "path": "docs/project/folder-structure-and-files-guidelines.md",
       "sha256": "15cb8026b0bf1aab39a2fea54cc88a4e9cd26f6bdf084f6f6fc20c6efae9e491"
     },
@@ -95,15 +95,15 @@
     },
     {
       "bytes": 3439,
-      "last_commit": "0121a06e3db48bb87a951530844e56a01caa6703",
+      "last_commit": "f54272e8ace1181281d60dfab57ea1ae4c5f4818",
       "path": "docs/project/prompts/README.md",
       "sha256": "48f9342e1198fcdc5ccb5dec2ba8024bdab07c2199e035a9034082ab4f239f38"
     },
     {
-      "bytes": 2347,
+      "bytes": 2476,
       "last_commit": "20649430302b05c044ad9eeaf4b028c2fdee9fd0",
       "path": "docs/project/prompts/tasks.md",
-      "sha256": "49b05670ec9e2b9e8ad261eaee273a92eeb6747270a0a56c3d6f71e6a4b7a461"
+      "sha256": "1bee4a0fa32fd37ff98edf7ef9884b967d362265d751665ec350a8fbf1610b3a"
     },
     {
       "bytes": 1468,

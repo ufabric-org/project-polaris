@@ -5,7 +5,7 @@ This file lists the human-maintained documents that agentic artifacts under `age
 ## Last verified revision
 
 - Generated at (local date): 2026-02-22
-- Repository `HEAD`: `681032b76d66cd35c37d970061712f4f781f8cc5`
+- Repository `HEAD`: `315798cd1f4ca84e39ca9abd9fc68b681e6faaa8`
 - Working tree dirty: yes (see `agentic/sources.lock.json`)
 
 ## Primary sources (rules)
