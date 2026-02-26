@@ -4,8 +4,8 @@ This file lists the human-maintained documents that agentic artifacts under `age
 
 ## Last verified revision
 
-- Generated at (local date): 2026-02-22
-- Repository `HEAD`: `74a4ddc6f37147e55aaf110fc3c12bce14fa9557`
+- Generated at (local date): 2026-02-26
+- Repository `HEAD`: `5503d25083583b481cb07a37f3e758a8523508c9`
 - Working tree dirty: yes (see `agentic/sources.lock.json`)
 
 ## Primary sources (rules)
@@ -19,6 +19,7 @@ This file lists the human-maintained documents that agentic artifacts under `age
 
 ## Secondary sources (context / policies)
 
+- `AGENTS.md`
 - `README.md`
 - `CONTRIBUTING.md`
 - `CODE_OF_CONDUCT.md`

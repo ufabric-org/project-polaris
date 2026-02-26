@@ -10,6 +10,7 @@ This map is a navigation aid for agents and humans. It is intentionally high-lev
 ## Key entry points
 
 - Project overview: `README.md`
+- Agent instructions: `AGENTS.md`
 - Project documentation index: `docs/README.md`
 - Project guidelines index: `docs/project/README.md`
 - Prompt library: `docs/project/prompts/README.md`

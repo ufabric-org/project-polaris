@@ -4,7 +4,11 @@ This directory contains agent-facing documentation for AI agents working alongsi
 
 ## Entry point
 
-If you give an LLM/agent one file from this repository, start with:
+If your tool supports `AGENTS.md`, start with the repository root:
+
+- `AGENTS.md`
+
+If you give an LLM/agent one file from this repository and it must live under `agentic/`, start with:
 
 - `agentic/AGENT.md`
 

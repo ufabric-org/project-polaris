@@ -1,6 +1,8 @@
 # Agent Runbook (uFabric Polaris)
 
-This file is the single entry point you can hand to an LLM/agent before it performs tasks in this repository.
+This file is the in-depth runbook for AI agents working in this repository.
+
+If your tool supports the `AGENTS.md` convention, start with `AGENTS.md` at the repository root (it links here and to the human sources of truth).
 
 ## Repository purpose
 

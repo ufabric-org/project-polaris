@@ -1,13 +1,19 @@
 {
-  "generated_at": "2026-02-22",
+  "generated_at": "2026-02-26",
   "git_dirty": true,
-  "git_head": "74a4ddc6f37147e55aaf110fc3c12bce14fa9557",
+  "git_head": "5503d25083583b481cb07a37f3e758a8523508c9",
   "sources": [
     {
       "bytes": 736,
       "last_commit": "fd3a522a83a56d145754ffd64e82a52fbc4175ed",
       "path": "README.md",
       "sha256": "64dc2d55dd9e4de956ce5f47f02821a5f4d632cd4167eeb0a8c4a9f7e4eb8560"
+    },
+    {
+      "bytes": 1375,
+      "last_commit": null,
+      "path": "AGENTS.md",
+      "sha256": "e446e1e2a9662f0626efda8fd2c708168aa3317a8f80ba05752249a7f8edfc01"
     },
     {
       "bytes": 13,
@@ -58,10 +64,10 @@
       "sha256": "2c1d6c3efd09445a5eb8f0a8e0f4fe5e3850ca601a84dcd088d321fff4d2266d"
     },
     {
-      "bytes": 1713,
-      "last_commit": "f54272e8ace1181281d60dfab57ea1ae4c5f4818",
+      "bytes": 1858,
+      "last_commit": "4cda8129f9708712202f38aac1fd453111c6a39f",
       "path": "docs/project/README.md",
-      "sha256": "52377b2c8f957047450b48bb1d7a50f4712ab315c0ab20ad37e72f1cf7c9ded5"
+      "sha256": "a830dceae418a937b05ebf993475eaa779f84a50782eb58288ea658c4dd447e0"
     },
     {
       "bytes": 4295,
@@ -82,10 +88,10 @@
       "sha256": "1214054ea59b5d40652b6ee274c827add1f19a603808633cd01811eac1ecee1c"
     },
     {
-      "bytes": 16870,
-      "last_commit": "f54272e8ace1181281d60dfab57ea1ae4c5f4818",
+      "bytes": 17431,
+      "last_commit": "4cda8129f9708712202f38aac1fd453111c6a39f",
       "path": "docs/project/folder-structure-and-files-guidelines.md",
-      "sha256": "54855dff5df7de9f6a131fb1a90c299c6fd0b9f67807ebc4f0ecffc34c8a6e10"
+      "sha256": "042ea1cc615e18faea9296853180fec3a28aa12b42a003e98f04074975b143e7"
     },
     {
       "bytes": 2013,
