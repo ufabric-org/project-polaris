@@ -7,7 +7,7 @@ This repository contains the guidelines, templates, and other useful artifacts f
 ## Where to start
 
 - Project-wide guidelines and policies: [docs/project/README.md](docs/project/README.md)
-- Prompt library (task prompts and templates): [docs/project/prompts/README.md](docs/project/prompts/README.md)
+- Skills (standard reusable workflows + curated list): [docs/project/skills/README.md](docs/project/skills/README.md)
 - Agent-facing runbook (derived artifacts): [agentic/README.md](agentic/README.md)
 
 For changes in this repository, refer to the [CHANGELOG](CHANGELOG.md).

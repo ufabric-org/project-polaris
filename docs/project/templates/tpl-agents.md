@@ -8,6 +8,7 @@ It follows the `AGENTS.md` convention described at https://agents.md/.
 - Project overview: `README.md`
 - Architecture / docs: `docs/`
 - Code: `src/` (or the primary code directory in this repo)
+- Skills (if used): `skills/` and project-installed agent skills (for example `./.agents/skills/`, `./.claude/skills/`)
 
 ## Quick commands
 
@@ -33,4 +34,3 @@ Replace these with the real commands for your repo:
 ## Derived agent artifacts (optional)
 
 If this repo maintains derived agent-facing docs (for example under `agentic/`), keep them in sync with the human sources of truth and document the refresh procedure.
-

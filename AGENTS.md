@@ -8,7 +8,7 @@ This file follows the `AGENTS.md` convention described at https://agents.md/ so 
 
 - Repository overview: `README.md`
 - Project guideline index: `docs/project/README.md`
-- Prompt library: `docs/project/prompts/README.md`
+- Skills (standard reusable workflows): `docs/project/skills/standard.md`, `docs/project/skills/README.md`, and skills under `skills/`
 - In-depth agent runbook (derived): `agentic/AGENT.md`
 
 ## Source of truth vs derived artifacts
@@ -28,4 +28,3 @@ If anything conflicts, follow the human docs and refresh `agentic/` (see `agenti
 ## What to do after changes
 
 If you modify human sources (typically under `docs/`), refresh derived agent artifacts in `agentic/` per `agentic/MAINTENANCE.md`.
-

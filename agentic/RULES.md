@@ -22,12 +22,16 @@ This file is a short index of “what to follow” when working in this reposito
 - Treat `#️⃣ ... #️⃣` markers as human-to-agent instructions; follow them and do not include the instruction text in final user-facing output unless asked.
   - Source: `docs/project/ai-guidelines.md` → “Human-to-agent instruction annotations”
 
-## Prompt authoring (for `docs/project/prompts/`)
+## Skill authoring (standard)
 
-- Prompts must be based on human-maintained documentation; do not introduce new policy; include explicit inputs/outputs and traceability.
-  - Source: `docs/project/prompts/README.md` → “Prompt design rules (for adding or editing prompts)”
-- Naming convention: task prompts start with `task-` and templates start with `template-`.
-  - Source: `docs/project/prompts/README.md` → “Prompt design rules (for adding or editing prompts)”
+- Skills are the standard mechanism for reusable agent workflows; legacy prompt files are reference-only.
+  - Source: `docs/project/skills/README.md` → “Skills (Standard)”
+- Skills are installed via vendoring (copy + sync); do not use `npx` or installers.
+  - Source: `docs/project/skills/standard.md` → “2) Installation is vendoring (copy + sync)”
+- Skills must be LLM-vendor agnostic (no vendor/tool assumptions in the skill text).
+  - Source: `docs/project/skills/standard.md` → “3) LLM-vendor agnostic skills”
+- Third-party skills may be vendored into Polaris only with explicit license + security review metadata.
+  - Source: `docs/project/skills/standard.md` → “4) Third-party skills (curation + security)”
 
 ## Repository structure expectations
 
@@ -38,12 +42,13 @@ This file is a short index of “what to follow” when working in this reposito
 
 - If a file is an exact copy from Polaris, treat it as upstream-managed: do not modify it downstream; change it in Polaris first and then sync.
   - Source: `docs/project/folder-structure-and-files-guidelines.md` → “Cross-repository reuse (Polaris as upstream)”
-- For prompts: create/update shared prompts in Polaris first; downstream repositories may add project-specific prompts but should not edit copied Polaris prompts.
-  - Source: `docs/project/prompts/README.md` → “Prompt design rules (for adding or editing prompts)”
+- For skills: add/update cross-project skills in Polaris first; downstream repositories may add project-specific skills but should not modify upstream-managed copies without first updating Polaris.
+  - Source: `docs/project/folder-structure-and-files-guidelines.md` → “Cross-repository reuse (Polaris as upstream)”
+  - Source: `docs/project/skills/README.md` → “Polaris as upstream”
 
 ## Sources
 
 - `docs/project/ai-guidelines.md`
 - `docs/project/language-guidelines.md`
 - `docs/project/folder-structure-and-files-guidelines.md`
-- `docs/project/prompts/README.md`
+- `docs/project/skills/README.md`

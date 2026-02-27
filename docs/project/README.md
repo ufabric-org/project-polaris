@@ -8,8 +8,9 @@ This directory contains the cross-project guidelines and references that uFabric
 - Language and terminology: [docs/project/language-guidelines.md](language-guidelines.md)
 - Source code conventions: [docs/project/source-code-guidelines.md](source-code-guidelines.md)
 - Default technical choices: [docs/project/technical-guidelines.md](technical-guidelines.md)
+- Skills (standard reusable agent workflows): [docs/project/skills/README.md](skills/README.md)
+- Downstream adoption (copy + sync): [docs/project/skills/downstream-adoption.md](skills/downstream-adoption.md)
 - Cross-repo structure and upstream-managed copies: [docs/project/folder-structure-and-files-guidelines.md](folder-structure-and-files-guidelines.md)
-- Prompt library rules: [docs/project/prompts/README.md](prompts/README.md)
 - Agent instructions convention (`AGENTS.md`): [docs/project/folder-structure-and-files-guidelines.md](folder-structure-and-files-guidelines.md)
 
 ## General guidelines

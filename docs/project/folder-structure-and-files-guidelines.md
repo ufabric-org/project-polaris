@@ -26,12 +26,21 @@ If a file is copied from Polaris as an “exact copy”, downstream repositories
 
 ### Project-specific files (local ownership)
 
-Downstream repositories MAY add project-specific documentation, prompts, and templates when they are genuinely specific to that project.
+Downstream repositories MAY add project-specific documentation, skills (preferred), legacy prompts, and templates when they are genuinely specific to that project.
 If an artifact (prompt/template/guideline) is likely to be useful across multiple uFabric repositories, the preferred workflow is:
 
 1) Add or update the shared artifact in Polaris.
 2) Update Polaris agent-facing documentation (for example, `agentic/`).
 3) Then continue implementation in the downstream repository using the updated shared reference.
+
+## Skills (recommended standard for reusable agent workflows)
+
+uFabric repositories SHOULD use Skills (https://skills.sh/docs) to package reusable agent workflows.
+
+- Projects SHOULD install skills at the project level (so the whole team shares them) by vendoring (copy + sync) and commit the resulting agent skill directories when appropriate.
+- Polaris MAY act as an upstream skill pack (custom uFabric skills under `skills/`) and as a curated index of external skills.
+
+See `docs/project/skills/README.md`.
 
 <!-- #️⃣
 Review the table below and ensure the descriptions are coherent and complete.
@@ -53,6 +62,10 @@ If a folder/file does not make sense, remove it.
 | /                              | ROADMAP.md                |     ➕     |  📦   | Roadmap for the project.                               |                                                  | templates/roadmap.md                                   |
 | /                              | NOTICE                    |     ➕     |  📦   | Optional notices (attribution, legal, or third-party). |                                                  |                                                        |
 | /                              | .gitignore                |     ➕     |  📦   | Ignore patterns for build artifacts and local files.   |                                                  |                                                        |
+| /skills/                        |                           |     ➖     |  📦   | Optional installable skills maintained in-repo (Skills standard, see https://skills.sh/docs). |                                                  |                                                        |
+| /.agents/skills/                |                           |     ➖     |  🧱   | Project-installed skills for Codex/Cursor (vendored: copy + sync). |                                                  |                                                        |
+| /.agent/skills/                 |                           |     ➖     |  🧱   | Project-installed skills for Antigravity (vendored: copy + sync). |                                                  |                                                        |
+| /.claude/skills/                |                           |     ➖     |  🧱   | Project-installed skills for Claude Code (vendored: copy + sync). |                                                  |                                                        |
 | /.github/ISSUE_TEMPLATE/       | bug_report.yml            |     ➖     |  📦   | Issue form for reporting docs/research/code problems.  | ../../.github/ISSUE_TEMPLATE/bug_report.yml      |                                                        |
 | /.github/ISSUE_TEMPLATE/       | feature_request.yml       |     ➖     |  📦   | Issue form for proposing improvements (with criteria). | ../../.github/ISSUE_TEMPLATE/feature_request.yml |                                                        |
 | /.github/ISSUE_TEMPLATE/       | question.yml              |     ➖     |  📦   | Issue form for questions (with context/outcome).       | ../../.github/ISSUE_TEMPLATE/question.yml        |                                                        |

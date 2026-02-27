@@ -23,16 +23,18 @@ If your tool supports the `AGENTS.md` convention, start with `AGENTS.md` at the 
 - `docs/project/ai-guidelines.md`
 - `docs/project/language-guidelines.md`
 - `docs/project/source-code-guidelines.md`
+- `docs/project/skills/README.md`
+- `docs/project/skills/standard.md`
 - `docs/project/folder-structure-and-files-guidelines.md`
 - `docs/project/technical-guidelines.md`
-- `docs/project/prompts/README.md`
 
 The full source list and last-verified revision is in `agentic/SOURCES.md` and `agentic/sources.lock.json`.
 
 ## How to navigate this repository
 
 - High-level map: `agentic/REPO_MAP.md`
-- Prompt library entry points: `docs/project/prompts/tasks.md` and `docs/project/prompts/templates.md`
+- Skills entry points: `docs/project/skills/standard.md`, `docs/project/skills/README.md`, and skills under `skills/`
+- Downstream adoption guide: `docs/project/skills/downstream-adoption.md`
 - Documentation templates: `docs/project/templates/`
 - Project-level policies: root-level `*.md` files (e.g., `CONTRIBUTING.md`, `SECURITY.md`)
 
@@ -57,5 +59,4 @@ Before relying on `agentic/` content, check whether the human sources changed:
 
 - `docs/project/ai-guidelines.md` (Core principles; Requirements; Human-to-agent instruction annotations)
 - `docs/project/language-guidelines.md` (Core principles; English-first policy; Agentic / LLM documents)
-- `docs/project/prompts/README.md` (Prompt design rules)
 - `docs/project/folder-structure-and-files-guidelines.md` (Cross-repository reuse; Upstream-managed files)

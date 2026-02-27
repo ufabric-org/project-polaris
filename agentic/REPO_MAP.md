@@ -11,11 +11,15 @@ This map is a navigation aid for agents and humans. It is intentionally high-lev
 
 - Project overview: `README.md`
 - Agent instructions: `AGENTS.md`
+- Claude Code entry point: `CLAUDE.md` (if using Claude Code)
 - Project documentation index: `docs/README.md`
 - Project guidelines index: `docs/project/README.md`
-- Prompt library: `docs/project/prompts/README.md`
-  - Task prompts: `docs/project/prompts/tasks.md`
-  - Template prompts: `docs/project/prompts/templates.md`
+- Skills standard (canonical): `docs/project/skills/standard.md`
+- Skills overview: `docs/project/skills/README.md`
+- Skills downstream adoption: `docs/project/skills/downstream-adoption.md`
+- Skills (uFabric + vendored): `skills/`
+  - uFabric skills: `skills/ufabric-*/`
+  - Vendored third-party skills: `skills/vendor/`
 - Documentation templates: `docs/project/templates/`
 
 ## Common lookups (rules)

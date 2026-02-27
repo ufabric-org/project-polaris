@@ -21,17 +21,17 @@ The goals are to enhance human capabilities while preserving responsibility, ver
 
 ## Source of truth for uFabric projects
 
-For cross-project rules, prompts MAY and often SHOULD reference this repository (`ufabric-org/project-polaris`) as the canonical source of truth.
+For cross-project rules, repositories MAY reference this repository (`ufabric-org/project-polaris`) as the canonical source of truth.
 
 Key references:
 
 - Language guidelines: https://raw.githubusercontent.com/ufabric-org/project-polaris/refs/heads/main/docs/project/language-guidelines.md
 - Source code guidelines: https://raw.githubusercontent.com/ufabric-org/project-polaris/refs/heads/main/docs/project/source-code-guidelines.md
-- Prompt library: https://raw.githubusercontent.com/ufabric-org/project-polaris/refs/heads/main/docs/project/prompts/README.md
+- Skills standard: https://raw.githubusercontent.com/ufabric-org/project-polaris/refs/heads/main/docs/project/skills/standard.md
 
-## Prompting standards
+## Task instruction standards (applies to skills and one-off requests)
 
-Prefer structured prompts that include:
+Prefer structured task instructions that include:
 
 - task goal and scope
 - repository context and constraints
@@ -39,7 +39,7 @@ Prefer structured prompts that include:
 - definition of done and validation steps
 - explicit output format
 
-The curated prompt library is in `docs/project/prompts/`.
+Reusable workflows live in `skills/` (and are described in `docs/project/skills/`).
 
 ## Human-to-agent instruction annotations
 
