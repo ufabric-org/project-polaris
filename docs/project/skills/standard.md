@@ -76,13 +76,14 @@ See:
 
 ## 6) Prompt for other repositories (copy/paste)
 
-Replace `<POLARIS_SHA>` with a pinned Polaris commit SHA:
-
 ```
 You are updating this repository to align with the uFabric Skills standard.
 
 Read and follow:
-https://raw.githubusercontent.com/ufabric-org/project-polaris/<POLARIS_SHA>/docs/project/skills/standard.md
+https://raw.githubusercontent.com/ufabric-org/project-polaris/refs/heads/main/docs/project/skills/standard.md
+
+When you need to open any referenced Polaris file, always fetch it from this base URL:
+https://raw.githubusercontent.com/ufabric-org/project-polaris/refs/heads/main/
 
 Constraints:
 - Follow the standard exactly.
@@ -96,4 +97,3 @@ Deliverables:
 - Vendor the selected skills into the appropriate agent directory and record the pinned Polaris revision (e.g., POLARIS_REVISION).
 - Document what changed and how to sync in the future.
 ```
-

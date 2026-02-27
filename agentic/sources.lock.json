@@ -1,13 +1,13 @@
 {
   "generated_at": "2026-02-27",
   "git_dirty": true,
-  "git_head": "ddd00fb12a68e243b967a1e52504441c9cf722c8",
+  "git_head": "69e6e831dbc40476b5807e64693df1ce5c5d37cc",
   "sources": [
     {
       "path": "AGENTS.md",
       "bytes": 1522,
       "sha256": "7ab9e0ef6e8f301573ae5d6e06211a8533e47f65578b179068085993bef7543c",
-      "last_commit": "ddd00fb12a68e243b967a1e52504441c9cf722c8"
+      "last_commit": "69e6e831dbc40476b5807e64693df1ce5c5d37cc"
     },
     {
       "path": "CHANGELOG.md",
@@ -19,7 +19,7 @@
       "path": "CLAUDE.md",
       "bytes": 249,
       "sha256": "efd5670e3151d9fbbbc6581de3178161ef1b7c4f437417233cbf372d6d6c79cf",
-      "last_commit": "ddd00fb12a68e243b967a1e52504441c9cf722c8"
+      "last_commit": "69e6e831dbc40476b5807e64693df1ce5c5d37cc"
     },
     {
       "path": "CODE_OF_CONDUCT.md",
@@ -67,13 +67,13 @@
       "path": "docs/README.md",
       "bytes": 461,
       "sha256": "44671dcf9bd0faef16a5417a071996a9c83b7211c482450fef0da0efa72a42ac",
-      "last_commit": "ddd00fb12a68e243b967a1e52504441c9cf722c8"
+      "last_commit": "69e6e831dbc40476b5807e64693df1ce5c5d37cc"
     },
     {
       "path": "docs/project/README.md",
       "bytes": 2091,
       "sha256": "eab278ba2da9d66a54a0783b78e459753665d0823e9eb271d7ccd89da85efe5b",
-      "last_commit": "ddd00fb12a68e243b967a1e52504441c9cf722c8"
+      "last_commit": "69e6e831dbc40476b5807e64693df1ce5c5d37cc"
     },
     {
       "path": "docs/project/ai-guidelines.md",
@@ -137,8 +137,8 @@
     },
     {
       "path": "docs/project/skills/standard.md",
-      "bytes": 3272,
-      "sha256": "27804e0b4bc3864ac4c82e52dc153c497a222b255da6550b7c7ac337a019cfa2",
+      "bytes": 3381,
+      "sha256": "4b5f9edda237e338a580e106b9817c946bebf94e78177e8846f7cdb8f0b0047b",
       "last_commit": "ddd00fb12a68e243b967a1e52504441c9cf722c8"
     },
     {
@@ -157,7 +157,7 @@
       "path": "docs/project/standard.md",
       "bytes": 2670,
       "sha256": "a979783383332b91e85f2bb108613186542ed266ad26ac004a3336f9ce0eb75f",
-      "last_commit": null
+      "last_commit": "69e6e831dbc40476b5807e64693df1ce5c5d37cc"
     },
     {
       "path": "docs/project/technical-guidelines.md",
