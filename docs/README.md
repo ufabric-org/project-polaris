@@ -5,5 +5,6 @@ This directory contains human-facing documentation for Polaris.
 ## Entry points
 
 - uFabric project guidelines and references: [docs/project/README.md](project/README.md)
+- Repository standard (downstream adoption): [docs/project/standard.md](project/standard.md)
 - Skills (standard reusable workflows): [docs/project/skills/README.md](project/skills/README.md)
 - Documentation templates: [docs/project/templates/](project/templates/)

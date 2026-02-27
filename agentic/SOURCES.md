@@ -10,6 +10,7 @@ This file lists the human-maintained documents that agentic artifacts under `age
 
 ## Primary sources (rules)
 
+- `docs/project/standard.md`
 - `docs/project/ai-guidelines.md`
 - `docs/project/language-guidelines.md`
 - `docs/project/source-code-guidelines.md`

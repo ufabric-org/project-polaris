@@ -8,6 +8,7 @@ This file follows the `AGENTS.md` convention described at https://agents.md/ so 
 
 - Repository overview: `README.md`
 - Project guideline index: `docs/project/README.md`
+- Repository standard (entry point): `docs/project/standard.md`
 - Skills (standard reusable workflows): `docs/project/skills/standard.md`, `docs/project/skills/README.md`, and skills under `skills/`
 - In-depth agent runbook (derived): `agentic/AGENT.md`
 

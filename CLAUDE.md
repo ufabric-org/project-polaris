@@ -5,6 +5,6 @@ This repository’s canonical agent instructions live in `AGENTS.md` (per https:
 Read in order:
 
 1) `AGENTS.md`
+2) `docs/project/standard.md`
 2) `docs/project/skills/standard.md`
 3) `docs/project/README.md`
-

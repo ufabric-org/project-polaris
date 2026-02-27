@@ -20,6 +20,7 @@ If your tool supports the `AGENTS.md` convention, start with `AGENTS.md` at the 
 
 ## Where the rules live (human sources)
 
+- `docs/project/standard.md`
 - `docs/project/ai-guidelines.md`
 - `docs/project/language-guidelines.md`
 - `docs/project/source-code-guidelines.md`

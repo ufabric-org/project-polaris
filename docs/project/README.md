@@ -4,6 +4,7 @@ This directory contains the cross-project guidelines and references that uFabric
 
 ## Entry points
 
+- Repository standard (start here for downstream adoption): [docs/project/standard.md](standard.md)
 - AI usage: [docs/project/ai-guidelines.md](ai-guidelines.md)
 - Language and terminology: [docs/project/language-guidelines.md](language-guidelines.md)
 - Source code conventions: [docs/project/source-code-guidelines.md](source-code-guidelines.md)

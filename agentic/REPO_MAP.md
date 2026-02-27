@@ -14,6 +14,7 @@ This map is a navigation aid for agents and humans. It is intentionally high-lev
 - Claude Code entry point: `CLAUDE.md` (if using Claude Code)
 - Project documentation index: `docs/README.md`
 - Project guidelines index: `docs/project/README.md`
+- Repository standard (canonical): `docs/project/standard.md`
 - Skills standard (canonical): `docs/project/skills/standard.md`
 - Skills overview: `docs/project/skills/README.md`
 - Skills downstream adoption: `docs/project/skills/downstream-adoption.md`
